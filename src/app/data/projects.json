@@ -1,0 +1,145 @@
+{
+  "carousel": {
+    "config": {
+      "cardCount": 4,
+      "categories": ["App", "Frontend", "Backend", "Java", "Freelancer", "Python", "PostgreSQL", "MySQL", "CI/CD"]
+    },
+    "cards": [
+      {
+        "id": "abonopay",
+        "title": "Abonopay",
+        "description": "Aplicativo para gerenciamento de empréstimos.",
+        "categories": ["App", "Backend", "Frontend", "Java", "MySQL", "CI/CD", "Freelancer"],
+        "image": "/imgs/projects/Abonopay.webp",
+        "imageHover": "/imgs/projects/Abonopay-hover.webp",
+        "path": "/projects/abonopay",
+        "folder": "abonopay",
+        "approaches": {
+          "prod": {
+            "title": "Abonopay",
+            "subtitle": "Gestão inteligente de empréstimos",
+            "cta": "Conheça a solução"
+          },
+          "tec": {
+            "title": "Abonopay",
+            "subtitle": "Java 17, Spring Boot e segurança JWT",
+            "cta": "Ver arquitetura"
+          },
+          "pers": {
+            "title": "Abonopay",
+            "subtitle": "O desafio de construir uma API financeira do zero",
+            "cta": "Ler trajetória"
+          }
+        }
+      },
+      {
+        "id": "logofier",
+        "title": "Logofier",
+        "description": "Aplicação para posicionamento e padronização de logotipos em arquivos PDF.",
+        "categories": ["Backend", "Frontend", "PostgreSQL", "Python", "CI/CD", "Freelancer"],
+        "image": "/imgs/projects/Logofier.webp",
+        "imageHover": "/imgs/projects/Logofier-hover.webp",
+        "path": "/projects/logofier",
+        "folder": "logofier",
+        "approaches": {
+          "prod": {
+            "title": "Logofier",
+            "subtitle": "Padronização automática de logotipos em PDFs",
+            "cta": "Ver como funciona"
+          },
+          "tec": {
+            "title": "Logofier",
+            "subtitle": "FastAPI, PostgreSQL e processamento de PDFs",
+            "cta": "Explorar stack"
+          },
+          "pers": {
+            "title": "Logofier",
+            "subtitle": "Do problema recorrente ao SaaS em poucos meses",
+            "cta": "Ler trajetória"
+          }
+        }
+      },
+      {
+        "id": "cnpjutils",
+        "title": "CnpjUtils",
+        "description": "API para geração, validação e consulta de CNPJs numéricos e alfanuméricos.",
+        "categories": ["Backend", "Java", "CI/CD"],
+        "image": "/imgs/projects/CnpjUtils.webp",
+        "imageHover": "/imgs/projects/CnpjUtils-hover.webp",
+        "path": "/projects/cnpjutils",
+        "folder": "cnpjutils",
+        "approaches": {
+          "prod": {
+            "title": "CnpjUtils",
+            "subtitle": "Validação e consulta de CNPJ em lote",
+            "cta": "Conheça a API"
+          },
+          "tec": {
+            "title": "CnpjUtils",
+            "subtitle": "Java 21, Spring Boot e testes automatizados",
+            "cta": "Ver implementação"
+          },
+          "pers": {
+            "title": "CnpjUtils",
+            "subtitle": "A importância de testar cada endpoint",
+            "cta": "Ler trajetória"
+          }
+        }
+      },
+      {
+        "id": "gestordetarifas",
+        "title": "Gestor de Tarifas",
+        "description": "API para gestão e cálculo de tarifas de água com tabelas tarifárias.",
+        "categories": ["Backend", "Java", "PostgreSQL"],
+        "image": "/imgs/projects/GestorDeTarifas.webp",
+        "imageHover": "/imgs/projects/GestorDeTarifas-hover.webp",
+        "path": "/projects/gestordetarifas",
+        "folder": "gestordetarifas",
+        "approaches": {
+          "prod": {
+            "title": "Gestor de Tarifas",
+            "subtitle": "Cálculo preciso de tarifas de água",
+            "cta": "Ver solução"
+          },
+          "tec": {
+            "title": "Gestor de Tarifas",
+            "subtitle": "Java, Spring Boot e PostgreSQL",
+            "cta": "Explorar stack"
+          },
+          "pers": {
+            "title": "Gestor de Tarifas",
+            "subtitle": "Modelando regras tarifárias complexas",
+            "cta": "Ler trajetória"
+          }
+        }
+      },
+      {
+        "id": "cdnsimulator",
+        "title": "CDN Simulator",
+        "description": "Simulador de CDN utilizando microsserviços e mensageria com Kafka.",
+        "categories": ["Backend", "Frontend", "CI/CD", "Java", "PostgreSQL"],
+        "image": "/imgs/projects/CDNSimulator.webp",
+        "imageHover": "/imgs/projects/CDNSimulator-hover.webp",
+        "path": "/projects/cdnsimulator",
+        "folder": "cdnsimulator",
+        "approaches": {
+          "prod": {
+            "title": "CDN Simulator",
+            "subtitle": "Simulação de CDN com microsserviços",
+            "cta": "Conheça o projeto"
+          },
+          "tec": {
+            "title": "CDN Simulator",
+            "subtitle": "Java, Spring Boot, Kafka e Docker",
+            "cta": "Ver arquitetura"
+          },
+          "pers": {
+            "title": "CDN Simulator",
+            "subtitle": "Aprendendo event-driven na prática",
+            "cta": "Ler trajetória"
+          }
+        }
+      }
+    ]
+  }
+}

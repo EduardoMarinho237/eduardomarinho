@@ -1,0 +1,131 @@
+{
+  "experiences": [
+    {
+      "id": "bisa-sistemas",
+      "title": "Estágio em Desenvolvimento Fullstack",
+      "company": "Bisaweb",
+      "startDate": "Fev 2025",
+      "endDate": "Atual",
+      "keywords": [
+        "Python",
+        "FastAPI",
+        "RAG",
+        "LangChain",
+        "ChromaDB",
+        "GCP",
+        "Google Docs",
+        "MySQL",
+        "Docker",
+        "Nginx",
+        "PHP",
+        "CodeIgniter 4",
+        "JSON",
+        "MVC",
+        "Assinafy",
+        "Triggers",
+        "Auditoria",
+        "Argon2id",
+        "Hash",
+        "SSH Keys",
+        "MySQL Remote",
+        "Hardening",
+        "Login Unificado",
+        "CLI",
+        "Cronjobs"
+      ],
+      "topics": [
+        "Desenvolvimento de um microsserviço de IA em Python/FastAPI utilizando RAG, LangChain e ChromaDB",
+        "Integração com Google Cloud Platform (GCP) e Google Docs, com reindexação automática da base de conhecimento",
+        "Implementação de um SQL Agent para consultas analíticas e BI de dados sindicais/financeiros, utilizado por mais de 90 clientes em todo o país",
+        "Mais de 25 consultas pré-definidas e consultas dinâmicas, com roteamento automático database-per-client por autenticação",
+        "Autenticação via API Keys, banco de dados dedicado para auditoria de tokens, sessões e interações, e rate limiting com timeout progressivo",
+        "Infraestrutura containerizada com Docker e Nginx",
+        "Modernização de sistema legado de PHP puro para CodeIgniter 4, reestruturando autenticação, regras de negócio e arquitetura MVC",
+        "Redução da complexidade de manutenção e teste da aplicação após a migração para o novo framework",
+        "Implementação de auditoria em banco de dados com triggers de logging em tabelas críticas, cobrindo aproximadamente 25% das tabelas do MySQL",
+        "Concepção, planejamento e desenvolvimento de uma plataforma de gerenciamento de contratos com formulários dinâmicos",
+        "Armazenamento flexível em colunas JSON (MySQL), geração automática de contratos por substituição de campos e integração com Assinafy para assinatura eletrônica",
+        "Disparo automatizado de e-mails e painel administrativo para gestão completa do fluxo contratual",
+        "Migração de ~1.300 hashes de senha de MD5/SHA1 para Argon2id sem downtime",
+        "Migração automática durante o login e processamento assíncrono em fila com cronjobs e funções CLI em PHP",
+        "Criação de usuários e restrições de acesso via SSH keys e MySQL remote para acesso ao servidor",
+        "Eliminação do uso do usuário root para acessos remotos, estabelecendo regras rígidas de segurança",
+        "Integração entre base legada e sistema de login unificado, garantindo consistência de dados cruzados com validação por hashes das ligações",
+        "Garantia de acesso mais simples e seguro a todo o sistema"
+      ]
+    },
+    {
+      "id": "abonopay-dev-fullstack-backend",
+      "title": "Desenvolvedor Full Stack, foco em backend",
+      "company": "Abonopay",
+      "startDate": "Set 2025",
+      "endDate": "Jun 2026",
+      "keywords": [
+        "Java 17",
+        "Spring Boot",
+        "Spring Security",
+        "JWT",
+        "JPA/Hibernate",
+        "Flyway",
+        "MySQL",
+        "Docker",
+        "Nginx",
+        "Linux"
+      ],
+      "topics": [
+        "Desenvolvimento da API REST completa de um app de gestão de empréstimos com Java 17 e Spring Boot, cobrindo empréstimos, clientes, gastos, caixa, transações e relatórios",
+        "Cálculo automático de juros, parcelamento, agenda diária de recebimentos e relatórios em PDF com estatísticas de dívidas e gastos",
+        "Segurança com autenticação JWT, BCrypt, HTTPS, RBAC, isolamento multi-tenant e rate limiting",
+        "Deploy automatizado em VPS com Docker Compose, Nginx e SSL, reduzindo o tempo de deploy em ~80%",
+        "Organização do código em camadas com padrões Repository, Strategy, Builder e AOP, além de migrations com Flyway"
+      ]
+    },
+    {
+      "id": "cnpj-utils-projeto-pessoal",
+      "title": "CNPJ Utils — API REST",
+      "company": "Projeto Pessoal",
+      "startDate": "Abr 2026",
+      "endDate": "Abr 2026",
+      "keywords": [
+        "Java 21",
+        "Spring Boot",
+        "JUnit",
+        "Mockito",
+        "Swagger/OpenAPI",
+        "Maven",
+        "Render"
+      ],
+      "topics": [
+        "API de validação e consulta de CNPJ, inclusive em lote, publicada no Render com documentação interativa Swagger/OpenAPI",
+        "Todos os endpoints cobertos por testes unitários, de integração e E2E com JUnit/Mockito",
+        "Rate limiting thread-safe com ConcurrentHashMap e AtomicInteger, respostas padronizadas com Generics e tratamento estruturado de exceções"
+      ]
+    },
+    {
+      "id": "logofier-dev-fullstack",
+      "title": "Desenvolvedor Full Stack",
+      "company": "Logofier",
+      "startDate": "Set 2026",
+      "endDate": "Nov 2026",
+      "keywords": [
+        "Python",
+        "FastAPI",
+        "SQLAlchemy",
+        "Alembic",
+        "PostgreSQL",
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Docker"
+      ],
+      "topics": [
+        "Desenvolvimento full-stack de um SaaS para aplicação automática de logotipos em PDFs em lote",
+        "API em Python/FastAPI com SQLAlchemy 2.0, Alembic e PostgreSQL, implementando autenticação JWT com refresh-token rotation, RBAC, rate limiting e soft delete",
+        "Frontend em Next.js 16, React 19, TypeScript e Tailwind CSS v4, com editor visual drag-and-drop usando Konva para posicionamento preciso dos logotipos",
+        "Pipeline de processamento de PDFs com PyMuPDF e Pillow, thumbnails, prévias renderizadas e arquivos ZIP renomeados automaticamente, com storage abstraído entre Cloudflare R2/S3 e disco local",
+        "Deploy com Docker Compose na Hostinger, CI/CD via GitHub Actions e frontend na Vercel"
+      ]
+    }
+  ]
+}

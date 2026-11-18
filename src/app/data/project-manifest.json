@@ -1,0 +1,22 @@
+{
+  "logofier": {
+    "prod": [
+      "/projects/logofier/prod/bg-sec1.webp",
+      "/projects/logofier/prod/bg-sec2.webp",
+      "/projects/logofier/prod/bg-sec3.webp",
+      "/projects/logofier/prod/bg-sec4.webp"
+    ],
+    "tec": [
+      "/projects/logofier/tec/bg-sec1.webp",
+      "/projects/logofier/tec/bg-sec2.webp",
+      "/projects/logofier/tec/bg-sec3.webp",
+      "/projects/logofier/tec/bg-sec4.webp"
+    ],
+    "pers": [
+      "/projects/logofier/pers/bg-sec1.webp",
+      "/projects/logofier/pers/bg-sec2.webp",
+      "/projects/logofier/pers/bg-sec3.webp",
+      "/projects/logofier/pers/bg-sec4.webp"
+    ]
+  }
+}

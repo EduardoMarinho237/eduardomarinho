@@ -1,0 +1,64 @@
+{
+  "carousel": {
+    "config": {
+      "cardCount": 4,
+      "categories": ["App", "Frontend", "Backend", "Java", "Freelancer", "Python", "PostgreSQL", "MySQL", "Deploy", "CI/CD"]
+    },
+    "cards": [
+      {
+        "id": "bisa-sistemas-ai-agent",
+        "title": "Bisa Sistemas - AI Agent",
+        "description": "Desenvolvimento de um microsserviço de IA em Python/FastAPI com RAG, LangChain e ChromaDB, integrando Google Cloud Platform (GCP) e Google Docs com reindexação automática da base de conhecimento. Implementação de um SQL Agent para consultas analíticas e BI de dados sindicais e financeiros, utilizado por mais de 90 clientes em todo o país, com mais de 25 consultas pré-definidas e roteamento automático database-per-client. A solução inclui autenticação via API Keys, infraestrutura Docker/Nginx, banco dedicado para auditoria de tokens, sessões e interações, além de rate limiting com timeout progressivo.",
+        "categories": ["Python", "FastAPI", "IA", "RAG", "Docker", "Deploy"],
+        "image": "/imgs/projects/placeholder.svg",
+        "imageHover": "/imgs/projects/placeholder.svg",
+        "path": "/experiences/bisa-sistemas-ai-agent"
+      },
+      {
+        "id": "bisa-sistemas-refatoracao-legado",
+        "title": "Bisa Sistemas - Refatoração de legado",
+        "description": "Modernização de sistema legado de PHP puro para CodeIgniter 4, reestruturando autenticação, regras de negócio e arquitetura MVC, reduzindo a complexidade de manutenção e teste da aplicação. Criação de features e correção de bugs em projetos legados em frameworks PHP. Implementação de auditoria em banco de dados MySQL com triggers de logging em tabelas críticas, cobrindo aproximadamente 25% das tabelas do sistema. Concepção e desenvolvimento de uma plataforma de gerenciamento de contratos com formulários dinâmicos, armazenamento flexível em colunas JSON, geração automática de contratos por substituição de campos, integração com Assinafy para assinatura eletrônica e disparo automatizado de e-mails.",
+        "categories": ["PHP", "CodeIgniter", "MySQL", "Backend"],
+        "image": "/imgs/projects/placeholder.svg",
+        "imageHover": "/imgs/projects/placeholder.svg",
+        "path": "/experiences/bisa-sistemas-refatoracao-legado"
+      },
+      {
+        "id": "bisa-sistemas-seguranca-aplicacoes",
+        "title": "Bisa Sistemas - Segurança de aplicações",
+        "description": "Migração de ~1.300 hashes de senha de MD5/SHA1 para Argon2id sem downtime, utilizando migração automática durante o login e processamento assíncrono em fila com cronjobs e funções CLI em PHP. Criação de usuários e restrições de acesso via SSH keys e MySQL remote, eliminando o uso do usuário root para acessos remotos e estabelecendo regras rígidas de segurança. Integração entre base legada e sistema de login unificado, garantindo consistência de dados cruzados com validação por meio de hashes das ligações, proporcionando acesso mais simples e seguro a todo o sistema.",
+        "categories": ["Segurança", "PHP", "MySQL", "Deploy"],
+        "image": "/imgs/projects/placeholder.svg",
+        "imageHover": "/imgs/projects/placeholder.svg",
+        "path": "/experiences/bisa-sistemas-seguranca-aplicacoes"
+      },
+      {
+        "id": "tech-lead",
+        "title": "Tech Lead",
+        "description": "Liderança técnica de equipe, definição de padrões e code reviews.",
+        "categories": ["trabalho"],
+        "image": "/imgs/projects/placeholder.svg",
+        "imageHover": "/imgs/projects/placeholder.svg",
+        "path": "/experiences/tech-lead"
+      },
+      {
+        "id": "mentoria-devs",
+        "title": "Mentoria de Devs",
+        "description": "Mentoria individual para desenvolvedores iniciantes e em transição de carreira.",
+        "categories": ["freelancer"],
+        "image": "/imgs/projects/placeholder.svg",
+        "imageHover": "/imgs/projects/placeholder.svg",
+        "path": "/experiences/mentoria-devs"
+      },
+      {
+        "id": "automation-os",
+        "title": "Automação Open Source",
+        "description": "Ferramentas de automação de deploy e CI/CD liberadas como open source.",
+        "categories": ["open source"],
+        "image": "/imgs/projects/placeholder.svg",
+        "imageHover": "/imgs/projects/placeholder.svg",
+        "path": "/experiences/automation-os"
+      }
+    ]
+  }
+}
